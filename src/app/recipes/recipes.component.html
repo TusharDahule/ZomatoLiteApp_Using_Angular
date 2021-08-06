@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-5"> <!-- left side screen -->
+        <!-- <app-recipe-list (no_of_recipes) = "findRecipeLength($event)"
+                        (recipeWasSelected) = "selectedRecipe = $event"
+        ></app-recipe-list> -->
+
+        <app-recipe-list (no_of_recipes) = "findRecipeLength($event)"
+        ></app-recipe-list>
+
+       <!--  <p>no of recipes : {{no_of_recipes}}</p> -->
+    </div>
+    <div class="col-md-7"><!-- right side screen -->
+       <!--  <app-recipe-details *ngIf="selectedRecipe; else noRecipeSelected"
+        [recipe] = "selectedRecipe"
+        ></app-recipe-details>
+        <ng-template #noRecipeSelected>
+            <p>Please select Recipe !</p>
+        </ng-template> -->
+        <router-outlet></router-outlet>
+    </div>
+</div>

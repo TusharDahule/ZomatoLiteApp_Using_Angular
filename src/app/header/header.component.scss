@@ -1,0 +1,36 @@
+.navbar{
+  background-color: #d11204;
+  color: white;
+}
+
+.navbar-brand{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+
+.navbar-collapse li>a{
+  color: white;
+}
+
+
+navbar-nav ul>li.active{
+  color:white;
+  background: red;
+}
+
+.dropdown-toggle{
+  background-color: #d11204;
+}
+
+.dropdown:hover, .dropdown .dropdown-menu li>a:hover{
+  background-color: #990f05;
+}
+
+.dropdown .dropdown-menu{
+  background-color: #d11204;
+}
